@@ -1,0 +1,45 @@
+
+create database cloudtest1;
+use cloudtest1;
+CREATE TABLE `dept` (
+  `deptno` bigint(20) NOT NULL AUTO_INCREMENT,
+  `dname` varchar(60) DEFAULT NULL,
+  `db_source` varchar(60) DEFAULT NULL,
+  PRIMARY KEY (`deptno`)
+) ENGINE=innodb DEFAULT CHARSET=utf8;
+
+insert into dept (dname,db_source) values('开发部',DATABASE());
+insert into dept (dname,db_source) values('人事部',DATABASE());
+insert into dept (dname,db_source) values('财务部',DATABASE());
+insert into dept (dname,db_source) values('市场部',DATABASE());
+insert into dept (dname,db_source) values('运维部',DATABASE());
+===============================================================
+create database cloudtest2;
+use cloudtest2;
+CREATE TABLE `dept` (
+  `deptno` bigint(20) NOT NULL AUTO_INCREMENT,
+  `dname` varchar(60) DEFAULT NULL,
+  `db_source` varchar(60) DEFAULT NULL,
+  PRIMARY KEY (`deptno`)
+) ENGINE=innodb DEFAULT CHARSET=utf8;
+
+insert into dept (dname,db_source) values('开发部',DATABASE());
+insert into dept (dname,db_source) values('人事部',DATABASE());
+insert into dept (dname,db_source) values('财务部',DATABASE());
+insert into dept (dname,db_source) values('市场部',DATABASE());
+insert into dept (dname,db_source) values('运维部',DATABASE());
+===============================================================
+create database cloudtest3;
+use cloudtest3;
+CREATE TABLE `dept` (
+  `deptno` bigint(20) NOT NULL AUTO_INCREMENT,
+  `dname` varchar(60) DEFAULT NULL,
+  `db_source` varchar(60) DEFAULT NULL,
+  PRIMARY KEY (`deptno`)
+) ENGINE=innodb DEFAULT CHARSET=utf8;
+
+insert into dept (dname,db_source) values('开发部',DATABASE());
+insert into dept (dname,db_source) values('人事部',DATABASE());
+insert into dept (dname,db_source) values('财务部',DATABASE());
+insert into dept (dname,db_source) values('市场部',DATABASE());
+insert into dept (dname,db_source) values('运维部',DATABASE());
